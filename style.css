@@ -5,6 +5,8 @@
 
 }
 
+/* styling navbar */
+
 #navbar{
     margin: 13px;
     display: flex;
@@ -53,4 +55,56 @@ ul a:hover{
    color: black;
     
     border-radius: 5px;
+}
+
+
+/* styling home secti0on */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    top: 0px;
+    top:0px;
+    height: 350px;
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    background: url(img/3.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+#home p{
+    margin-top: 50px;
+}
+
+
+
+
+/* utility class */
+
+.h-primary{
+    font-size: 3rem;
+
+}
+
+
+.h-secondary{
+    font-size: 2.5rem;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
