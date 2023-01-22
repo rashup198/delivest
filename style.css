@@ -16,7 +16,7 @@
     
     content: "";
     background-color: black;
-    position: fixed;
+    position: absolute;
     height: 10%;
     width: 100%;
     top: 0px;
@@ -28,11 +28,13 @@
 }
 
 .logo img{
+  
     filter: invert(100%);
     height: 45px;
 }
 
 #navbar ul{
+
 display: flex;
 flex-direction: row;
 margin: 3px 23px;
@@ -76,7 +78,7 @@ ul a:hover{
     content: "";
     background: url(img/3.jpg) no-repeat center center/cover;
     position: absolute;
-    height: 100%;
+    height: 60%;
     width: 100%;
     top: 0;
     left: 0;
@@ -84,24 +86,72 @@ ul a:hover{
     opacity: 0.5;
 
 }
-
-#home p{
-    margin-top: 50px;
+#home h1{
+    color: black;
+    font-size: 3.8rem;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align:center ;
 }
 
 
+#home p{
+    margin-top: 50px;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
 
+/* styling our sevices section */
+#services-conatiner{
+    margin-top: 50px;
+}
+
+#services{
+    margin: 20px;
+    display: flex;
+}
+
+#services .box{
+   border: 2px solid black;
+   background-color: #d7f8ff;
+   justify-content: center;
+   text-align:center;
+   align-items: center;
+   border-radius:10px ;
+   padding: 10px;
+   margin: 2px 25px;
+   margin-bottom: 20px;
+}
+
+#services .box img{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .box p{
+    font-family: 'Balsamiq Sans', cursive;
+  }
+
+  .box:hover{
+    transform: translateX(20px);
+    box-shadow: 8px 8px 12px rgb(255, 82, 43);
+  }
+
+  .box{
+    transition: all 0.3s ease-in-out;
+  }
 /* utility class */
 
 .h-primary{
-    font-size: 3rem;
-
+    font-size: 3.8rem;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
 .h-secondary{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .center{
     text-align: center;
