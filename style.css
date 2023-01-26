@@ -241,8 +241,25 @@ ul a:hover{
      
  }
 
+/* styling footer */
+.head_social{
+    margin-left: 37%;
+}
+#oour_social{
+    background-color: black;
+}
+.social{
+    
+    display: inline-block;
+    
+}
 
-  /* utility class */
+.social img{
+    height: 70px;
+    margin: 4px 12px;
+}
+
+/* utility class */
 
 .h-primary{
     font-size: 3.8rem;
