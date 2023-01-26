@@ -146,7 +146,48 @@ ul a:hover{
   .box{
     transition: all 0.3s ease-in-out;
   }
-/* utility class */
+
+
+/* styling our client section */
+
+#our_clients{
+    position: relative;
+    margin-top: 40px;
+
+}
+#our_clients::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(img/pexels-photoscom-93398.jpg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.client_img img{
+    flex-direction: row;
+    height: 100px;
+    /* padding: 20px; */
+    margin: 10px;
+    /* border: 4px solid black; */
+ 
+
+}
+
+
+
+  /* utility class */
 
 .h-primary{
     font-size: 3.8rem;
